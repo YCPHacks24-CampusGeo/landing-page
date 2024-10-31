@@ -1,0 +1,36 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.click-me {
+    text-align: center;
+    transition: all .15s ease-out;
+}
+
+.click-me:hover {
+    transform: translateY(0.5vh);
+}
+
+.redirect-button {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(150, 200, 150, 1.0);
+    font-size: 5vh;
+    padding: 2vh;
+    border-radius: 1.5vh;
+    box-shadow: 0.5vh 0.5vh 0.25vh 0 rgba(0, 0, 0, 0.65);
+    transition: transform 0.3s ease;
+}
+
+.redirect-button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(100, 200, 100, 1.0);
+    font-size: 5vh;
+    padding: 2vh;
+    border-radius: 1.5vh;
+    box-shadow: 0.3vh 0.3vh 0.15vh 0 rgba(0, 0, 0, 0.65);
+}
